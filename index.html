@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="./script.js" defer></script>
+        <script type="module" src="./apiProdutos.js" defer></script>
+        <script type="module" src="./produtos.js" defer></script>
+        <title>Challeng Alura Geek</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="./img/image 1.png" alt="">
+            <h1>Lojinha do Thon's</h1>
+        </header>
+        <main class="container">
+            <div class="mercado">
+                <div id="produto">
+                    
+                </div>
+            </div>            
+            <div class="subtotal">
+                <h2>Subtotal</h2>
+                <section id="subtotal">
+                    <p><span id="quantidade-subtotal">0</span></p>
+                    <p>R$ <span id="valor-subtotal">0</span></p>
+                    <button class="buy-btn" onclick="redirectToAnotherPage()">Comprar</button>
+                </section>
+            </div>
+            </div>
+        </main>
+        <footer>
+            <img src="./img/image 1.png" alt="">
+            <section>
+                <h3>Alura Geek</h3>
+                <h3>Alura - 2024</h3>
+            </section>
+            <img src="./img/estrela.jpeg" alt="">
+
+        </footer>
+        <script>
+            function redirectToAnotherPage() {
+                
+                window.location.href = 'verificacao.html';
+            }
+            </script>
+    </body>
+
+</html>

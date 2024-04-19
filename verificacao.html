@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="./script.js" defer></script>
+        <title>Confirme seus dados</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="./img/image 1.png" alt="">
+            <h1>Lojinha do Thon's</h1>
+        </header>
+        <main>
+            
+            <div class="dados">
+                <img src="./img/chegouDisco.jpeg" alt="">
+                <h2 class="titulo">Confirmação de Compra</h2>
+                <p class="sub__titulo"><strong>Obrigado por sua compra! Abaixo estão os detalhes:</strong></p>
+                <p class="sub__titulo"><strong>Dados Pessoais:</strong></p>
+                <p>Nome: Fulano de Tal</p>
+                <p>Email: fulano@example.com</p>
+                <p>Telefone: (00) 1234-5678</p>
+                <p class="sub__titulo"><strong>Endereço de Entrega:</strong></p>
+                <p>Rua: Rua Exemplo, 123</p>
+                <p>Cidade: Cidade Exemplo</p>
+                <p>CEP: 12345-678</p>
+                <p class="sub__titulo"><strong>Data de Chegada:</strong></p>
+                <p>25 de Abril de 2024</p>
+                <p class="sub__titulo"><strong>Forma de Pagamento:</strong></p>
+                <p>Cartão de Crédito</p>
+                <p class="sub__titulo"><strong>Valor da Compra:</strong></p>
+                <p>R$ 100,00</p>
+                <p class="sub__titulo"><strong>Obrigado novamente pela sua compra!</strong></p>
+                <button class="btn-confirm" onclick="openConfirmation()">Confirmar</button>
+            </div>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="close" onclick="closeModal()">&times;</span>
+                  <img src="./img/chegouDisco.jpeg" alt="Confirmation Image">
+                  <p class="titulo"><strong>Confirmação de compra realizada com sucesso!</strong></p>
+                </div>
+              </div>
+
+        </main>
+        <footer>
+            <img src="./img/image 1.png" alt="">
+            <section>
+                <h3>Alura Geek</h3>
+                <h3>Alura - 2024</h3>
+            </section>
+            <img src="./img/estrela.jpeg" alt="">
+
+        </footer>
+    </body>
+
+</html>
