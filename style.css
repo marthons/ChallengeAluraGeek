@@ -39,15 +39,20 @@ header img {
     display: flex;
 }
 
-.dados {
-    width: 500px;
+.dados, .product{
+    width: 300px;
     height: auto;
     margin: 5%;
     padding: 10px;
     border-radius: 50px;
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     box-shadow: rgb(164, 90, 26) 0px 54px 55px, rgb(164, 90, 26) 0px -12px 30px, rgb(164, 90, 26) 0px 4px 6px, rgb(164, 90, 26) 0px 12px 13px, rgb(164, 90, 26) 0px -3px 5px;
+}
+
+.img__dados {
+    width: 80%;
+    height: auto;
 }
 
 .mercado {
